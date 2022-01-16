@@ -30,3 +30,9 @@ A topic is just a topic for discussion. It can be a question, poll, piece of new
   "language": "en"
 }
 ```
+
+The corresponding IPFS CID is:
+
+```
+bafybeigvbkfmhdgnqko4ev35wfecx7exiyg35gcr7rh45ywlpw2v62itye
+```

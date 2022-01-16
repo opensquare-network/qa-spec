@@ -5,19 +5,19 @@ for a topic. Only a topic author can do this interaction, and can only do it to 
 
 # Standard
 
-The format of a APPEND interaction is `0x{bytes(osn:q:1:A:{topic_ipfs_cid}:{addition_ipfs_cid})}`. It means the topic
+The format of a APPEND interaction is `0x{bytes(osn:q:1:A:{topic_ipfs_cid}:{message_ipfs_cid})}`. It means the topic
 author append an addition to an existed topic created by himself/herself.
 
 ## Items
 
 There are 6 items in this interaction.
 
-- osn: it just means OpenSquare Network.
-- q: it means qa collaboration.
-- 1: it means the qa spec version.
-- A: it's the abbreviation of APPEND, directive to append an addition to a existed topic.
-- topic_ipfs_cid: ipfs CID of the [topic](../entities/topic.md) to be appended.
-- addition_ipfs_cid: IPFS CID of the topic [addition](../entities/addition.md).
+- `osn`: it just means OpenSquare Network.
+- `q`: it means qa collaboration.
+- `1`: it means the qa spec version.
+- `A`: it's the abbreviation of APPEND, directive to append an addition to a existed topic.
+- `topic_ipfs_cid`: ipfs CID of the [topic](../entities/topic.md) to be appended.
+- `message_ipfs_cid`: IPFS CID of the topic [message](../entities/message.md).
 
 # Examples
 

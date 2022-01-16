@@ -9,15 +9,15 @@ the extrinsic caller promises to fund a topic with some amount of token.
 
 ## Items
 
-There are 7 items in this interaction.
+There are 7 items in this interaction:
 
-- osn: it just means OpenSquare Network.
-- q: it means qa collaboration.
-- 1: it means the qa spec version.
-- N: it's the abbreviation of NEW, directive to create a new topic.
-- token_identifier: it identifies a token, described in [token identifier](../entities/token-identifier.md) entity.
-- token_amount: how many tokens to fund this topic, described at [token amount](../entities/token-amount.md) entity.
-- topic_ipfs_cid: ipfs CID of a [topic](../entities/topic.md) entity.
+- `osn`: it just means OpenSquare Network.
+- `q`: it means qa collaboration.
+- `1`: it means the qa spec version.
+- `N`: it's the abbreviation of NEW, directive to create a new topic.
+- `token_identifier`: it identifies a token, described in [token identifier](../entities/token-identifier.md) entity.
+- `token_amount`: how many tokens to fund this topic, described at [token amount](../entities/token-amount.md) entity.
+- `topic_ipfs_cid`: ipfs CID of a [topic](../entities/topic.md) entity.
 
 # Examples
 
