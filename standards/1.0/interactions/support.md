@@ -16,8 +16,9 @@ There are 7 items in this interaction:
 - `q`: it means qa collaboration.
 - `1`: it means the qa spec version.
 - `S`: it's the abbreviation of SUPPORT, directive to support an existed topic.
-- `token_identifier`: it identifies a token, described in [token identifier](../entities/token-identifier.md) entity.
-- `token_amount`: how many tokens to fund this topic, described at [token amount](../entities/token-amount.md) entity.
+- `token_identifier`: it identifies a token, described in [token identifier](../identifiers/token-identifier.md) entity.
+- `token_amount`: how many tokens to fund this topic, described at [token amount](../identifiers/token-amount.md)
+  entity.
 - `topic_ipfs_cid`: ipfs CID of a [topic](../entities/topic.md) entity.
 
 # Examples
