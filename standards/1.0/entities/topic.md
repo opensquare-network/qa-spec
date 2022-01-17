@@ -13,13 +13,12 @@ A topic is just a topic for discussion. It can be a question, poll, piece of new
   "content": {
     "type": "string",
     "description": "Content of topic"
-  },
-  "language": {
-    "type": "string",
-    "description": "Language of topic"
   }
 }
 ```
+
+The `title` and `content` fields are mandatory. Implementers can add extra fields to help their businesses, for example,
+languages, category, etc.
 
 # Examples
 
@@ -30,6 +29,8 @@ A topic is just a topic for discussion. It can be a question, poll, piece of new
   "language": "en"
 }
 ```
+
+The `language` is an extra field to help get topic language.
 
 The corresponding IPFS CID is:
 
